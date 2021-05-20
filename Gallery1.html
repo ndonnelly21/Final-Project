@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- I based a lot of this work off of a 3wschools template: https://www.w3schools.com/css/css_image_gallery.asp -->
+<!-- I also based my work on this slideshow template: https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp -->
+<!-- opens the head where linking and metadata can go -->
+
+<head>
+    <!-- sets character set to be used by document -->
+    <meta charset="utf-8">
+    <title>Maze</title>
+    <!-- JS link -->
+    <script src="Script1.js"></script>
+    <!-- style or CSS -->
+    <link rel="stylesheet" type="text/css" href="Style1.css">
+</head>
+
+
+
+
+<body>
+
+
+<h2 style="text-align:center">Noah Donnelly Slideshow Gallery+</h2>
+
+
+
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 12</div>
+    <a target="_blank" href="Pics/1.jpg">
+    <img src="Pics/1.jpg" style="width:50%" height="500" class="center">
+    </a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 12</div>
+    <img src="Pics/2.jpg" style="width:50%" height="500" class="center">
+    </a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 12</div>
+    <a target="_blank" href="Pics/3.jpg">
+    <img src="Pics/3.jpg" style="width:50%" height="500" class="center">
+    </a>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 12</div>
+    <a target="_blank" href="Pics/4.jpg">
+    <img src="Pics/4.jpg" style="width:50%" height="500" class="center">
+    </a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 12</div>
+    <a target="_blank" href="Pics/5.jpg">
+    <img src="Pics/5.jpg" style="width:50%" height="500" class="center">
+    </a>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 12</div>
+    <a target="_blank" href="Pics/6.jpg">
+    <img src="Pics/6.jpg" style="width:50%" height="500" class="center">
+    </a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 12</div>
+    <a target="_blank" href="Pics/7.jpg">
+    <img src="Pics/7.jpg" style="width:50%" height="500" class="center">
+    </a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 12</div>
+    <a target="_blank" href="Pics/8.jpg">
+    <img src="Pics/8.jpg" style="width:50%" height="500" class="center">
+    </a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">9 / 12</div>
+    <a target="_blank" href="Pics/9.jpg">
+    <img src="Pics/9.jpg" style="width:50%" height="500" class="center">
+    </a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">10 / 12</div>
+    <a target="_blank" href="Pics/10.jpg">
+    <img src="Pics/10.jpg" style="width:50%" height="500" class="center">
+    </a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">11 / 12</div>
+    <a target="_blank" href="Pics/11.jpg">
+    <img src="Pics/11.jpg" style="width:50%" height="500" class="center">
+    </a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">12 / 12</div>
+    <a target="_blank" href="Pics/12.jpg">
+    <img src="Pics/12.jpg" style="width:50%" height="500" class="center">
+    </a>
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)"><</a>
+  <a class="next" onclick="plusSlides(1)">></a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="Pics/1.jpg" style="width:100%" height="150" onclick="currentSlide(1)" alt="Waves 1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Pics/2.jpg" style="width:100%" height="150" onclick="currentSlide(2)" alt="Waves 2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Pics/3.jpg" style="width:100%" height="150" onclick="currentSlide(3)" alt="Dolphins">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Pics/4.jpg" style="width:100%" height="150" onclick="currentSlide(4)" alt="Diver">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Pics/5.jpg" style="width:100%" height="150" onclick="currentSlide(5)" alt="Italy">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="Pics/6.jpg" style="width:100%" height="150" onclick="currentSlide(6)" alt="Forest">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Pics/7.jpg" style="width:100%" height="150" onclick="currentSlide(7)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Pics/8.jpg" style="width:100%" height="150" onclick="currentSlide(8)" alt="Lake">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Pics/9.jpg" style="width:100%" height="150" onclick="currentSlide(9)" alt="Blue Ocean">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Pics/10.jpg" style="width:100%" height="150" onclick="currentSlide(10)" alt="Fish">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Pics/11.jpg" style="width:100%" height="150" onclick="currentSlide(11)" alt="Sunset">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Pics/12.jpg" style="width:100%" height="150" onclick="currentSlide(12)" alt="Big Wave">
+    </div>
+  </div>
+</div>
+
+
+<script>
+    showSlides(1);
+</script>
+
+
+    
+</body>
+</html>
+
